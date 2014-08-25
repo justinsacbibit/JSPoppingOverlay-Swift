@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7026312219AA7E3600C392DF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7026312119AA7E3600C392DF /* Images.xcassets */; };
+		7026312E19AA7E3600C392DF /* JSPoppingOverlay_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7026312D19AA7E3600C392DF /* JSPoppingOverlay_SwiftTests.swift */; };
+		7067479C19AA7F3700C636DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7067479A19AA7F3700C636DF /* ViewController.swift */; };
+		7067479D19AA7F3700C636DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7067479B19AA7F3700C636DF /* AppDelegate.swift */; };
+		706747A119AA7F9800C636DF /* JSPoppingOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706747A019AA7F9800C636DF /* JSPoppingOverlay.swift */; };
+		706747A319AA801100C636DF /* UIView+JSPoppingOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706747A219AA801100C636DF /* UIView+JSPoppingOverlay.swift */; };
+		706747A719AA998500C636DF /* error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 706747A419AA998500C636DF /* error@2x.png */; };
+		706747A819AA998500C636DF /* success@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 706747A519AA998500C636DF /* success@2x.png */; };
+		706747A919AA998500C636DF /* SHIP.png in Resources */ = {isa = PBXBuildFile; fileRef = 706747A619AA998500C636DF /* SHIP.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7026312819AA7E3600C392DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7026310D19AA7E3600C392DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7026311419AA7E3600C392DF;
+			remoteInfo = "JSPoppingOverlay-Swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7026311519AA7E3600C392DF /* JSPoppingOverlay-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JSPoppingOverlay-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7026311919AA7E3600C392DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7026312119AA7E3600C392DF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7026312719AA7E3600C392DF /* JSPoppingOverlay-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JSPoppingOverlay-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7026312C19AA7E3600C392DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7026312D19AA7E3600C392DF /* JSPoppingOverlay_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSPoppingOverlay_SwiftTests.swift; sourceTree = "<group>"; };
+		7067479A19AA7F3700C636DF /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = Demo/ViewController.swift; sourceTree = "<group>"; };
+		7067479B19AA7F3700C636DF /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Demo/AppDelegate.swift; sourceTree = "<group>"; };
+		706747A019AA7F9800C636DF /* JSPoppingOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JSPoppingOverlay.swift; path = JSPoppingOverlay/JSPoppingOverlay.swift; sourceTree = "<group>"; };
+		706747A219AA801100C636DF /* UIView+JSPoppingOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView+JSPoppingOverlay.swift"; path = "JSPoppingOverlay/UIView+JSPoppingOverlay.swift"; sourceTree = "<group>"; };
+		706747A419AA998500C636DF /* error@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "error@2x.png"; path = "Demo/error@2x.png"; sourceTree = "<group>"; };
+		706747A519AA998500C636DF /* success@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "success@2x.png"; path = "Demo/success@2x.png"; sourceTree = "<group>"; };
+		706747A619AA998500C636DF /* SHIP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SHIP.png; path = Demo/SHIP.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7026311219AA7E3600C392DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7026312419AA7E3600C392DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7026310C19AA7E3600C392DF = {
+			isa = PBXGroup;
+			children = (
+				7026311719AA7E3600C392DF /* JSPoppingOverlay-Swift */,
+				7026312A19AA7E3600C392DF /* JSPoppingOverlay-SwiftTests */,
+				7026311619AA7E3600C392DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7026311619AA7E3600C392DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7026311519AA7E3600C392DF /* JSPoppingOverlay-Swift.app */,
+				7026312719AA7E3600C392DF /* JSPoppingOverlay-SwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7026311719AA7E3600C392DF /* JSPoppingOverlay-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				7067479E19AA7F4200C636DF /* Demo */,
+				7067479F19AA7F5900C636DF /* JSPoppingOverlay */,
+				7026312119AA7E3600C392DF /* Images.xcassets */,
+				7026311819AA7E3600C392DF /* Supporting Files */,
+			);
+			path = "JSPoppingOverlay-Swift";
+			sourceTree = "<group>";
+		};
+		7026311819AA7E3600C392DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7026311919AA7E3600C392DF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7026312A19AA7E3600C392DF /* JSPoppingOverlay-SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				7026312D19AA7E3600C392DF /* JSPoppingOverlay_SwiftTests.swift */,
+				7026312B19AA7E3600C392DF /* Supporting Files */,
+			);
+			path = "JSPoppingOverlay-SwiftTests";
+			sourceTree = "<group>";
+		};
+		7026312B19AA7E3600C392DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7026312C19AA7E3600C392DF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7067479E19AA7F4200C636DF /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				7067479B19AA7F3700C636DF /* AppDelegate.swift */,
+				7067479A19AA7F3700C636DF /* ViewController.swift */,
+				706747A419AA998500C636DF /* error@2x.png */,
+				706747A519AA998500C636DF /* success@2x.png */,
+				706747A619AA998500C636DF /* SHIP.png */,
+			);
+			name = Demo;
+			sourceTree = "<group>";
+		};
+		7067479F19AA7F5900C636DF /* JSPoppingOverlay */ = {
+			isa = PBXGroup;
+			children = (
+				706747A019AA7F9800C636DF /* JSPoppingOverlay.swift */,
+				706747A219AA801100C636DF /* UIView+JSPoppingOverlay.swift */,
+			);
+			name = JSPoppingOverlay;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7026311419AA7E3600C392DF /* JSPoppingOverlay-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7026313119AA7E3600C392DF /* Build configuration list for PBXNativeTarget "JSPoppingOverlay-Swift" */;
+			buildPhases = (
+				7026311119AA7E3600C392DF /* Sources */,
+				7026311219AA7E3600C392DF /* Frameworks */,
+				7026311319AA7E3600C392DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JSPoppingOverlay-Swift";
+			productName = "JSPoppingOverlay-Swift";
+			productReference = 7026311519AA7E3600C392DF /* JSPoppingOverlay-Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7026312619AA7E3600C392DF /* JSPoppingOverlay-SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7026313419AA7E3600C392DF /* Build configuration list for PBXNativeTarget "JSPoppingOverlay-SwiftTests" */;
+			buildPhases = (
+				7026312319AA7E3600C392DF /* Sources */,
+				7026312419AA7E3600C392DF /* Frameworks */,
+				7026312519AA7E3600C392DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7026312919AA7E3600C392DF /* PBXTargetDependency */,
+			);
+			name = "JSPoppingOverlay-SwiftTests";
+			productName = "JSPoppingOverlay-SwiftTests";
+			productReference = 7026312719AA7E3600C392DF /* JSPoppingOverlay-SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7026310D19AA7E3600C392DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Justin Sacbibit";
+				TargetAttributes = {
+					7026311419AA7E3600C392DF = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					7026312619AA7E3600C392DF = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 7026311419AA7E3600C392DF;
+					};
+				};
+			};
+			buildConfigurationList = 7026311019AA7E3600C392DF /* Build configuration list for PBXProject "JSPoppingOverlay-Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7026310C19AA7E3600C392DF;
+			productRefGroup = 7026311619AA7E3600C392DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7026311419AA7E3600C392DF /* JSPoppingOverlay-Swift */,
+				7026312619AA7E3600C392DF /* JSPoppingOverlay-SwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7026311319AA7E3600C392DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7026312219AA7E3600C392DF /* Images.xcassets in Resources */,
+				706747A719AA998500C636DF /* error@2x.png in Resources */,
+				706747A819AA998500C636DF /* success@2x.png in Resources */,
+				706747A919AA998500C636DF /* SHIP.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7026312519AA7E3600C392DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7026311119AA7E3600C392DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				706747A319AA801100C636DF /* UIView+JSPoppingOverlay.swift in Sources */,
+				7067479D19AA7F3700C636DF /* AppDelegate.swift in Sources */,
+				7067479C19AA7F3700C636DF /* ViewController.swift in Sources */,
+				706747A119AA7F9800C636DF /* JSPoppingOverlay.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7026312319AA7E3600C392DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7026312E19AA7E3600C392DF /* JSPoppingOverlay_SwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7026312919AA7E3600C392DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7026311419AA7E3600C392DF /* JSPoppingOverlay-Swift */;
+			targetProxy = 7026312819AA7E3600C392DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7026312F19AA7E3600C392DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7026313019AA7E3600C392DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7026313219AA7E3600C392DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "JSPoppingOverlay-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7026313319AA7E3600C392DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "JSPoppingOverlay-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7026313519AA7E3600C392DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "JSPoppingOverlay-SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JSPoppingOverlay-Swift.app/JSPoppingOverlay-Swift";
+			};
+			name = Debug;
+		};
+		7026313619AA7E3600C392DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "JSPoppingOverlay-SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JSPoppingOverlay-Swift.app/JSPoppingOverlay-Swift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7026311019AA7E3600C392DF /* Build configuration list for PBXProject "JSPoppingOverlay-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7026312F19AA7E3600C392DF /* Debug */,
+				7026313019AA7E3600C392DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7026313119AA7E3600C392DF /* Build configuration list for PBXNativeTarget "JSPoppingOverlay-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7026313219AA7E3600C392DF /* Debug */,
+				7026313319AA7E3600C392DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7026313419AA7E3600C392DF /* Build configuration list for PBXNativeTarget "JSPoppingOverlay-SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7026313519AA7E3600C392DF /* Debug */,
+				7026313619AA7E3600C392DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7026310D19AA7E3600C392DF /* Project object */;
+}
